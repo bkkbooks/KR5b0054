@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0054/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0054/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶三元玉京玄都大獻經
+  date: '2015-08-28 23:48:04.717749'
+  source:
+    repository: kanripo
+    path: KR5b0054
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0054_000-HFL.yaml, hash: 'sha256:2a8411ad48073ca2e55b0630972ebc90c09ab4623195e753a05e7417dc97a7f7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0054_000-HFL.markers.yaml, hash: 'sha256:016284965e473d0d144a2d59284570aa05e4aaa37a51d23ad2cf4a502c9fd852'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0054_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 8396
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8660ccd6785b2cbcc110b67ff9ab2d0378810f47b50a3ecf086607de2c9451ce
